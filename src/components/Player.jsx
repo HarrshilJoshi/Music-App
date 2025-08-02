@@ -177,6 +177,19 @@ useEffect(() => {
 }, []); // ✅ Run once
 
 
+
+
+// near other useEffects
+useEffect(() => {
+  fetch('/api/hello')
+    .then(res => res.json())
+    .then(data => {
+      console.log("🌐 Serverless Function Response:", data.message);
+    })
+    .catch(err => console.error("API call failed:", err));
+}, []);
+
+
 useEffect(() => {
   const updateLikedMap = async () => {
     const user = auth.currentUser;
