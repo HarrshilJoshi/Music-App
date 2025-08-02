@@ -151,12 +151,5 @@ This project is licensed under the [MIT License](./LICENSE).
 ---
 
 ## ✨ Author
+[Harshil Joshi](https://github.com/HarrshilJoshi)
 
-Made with 💙 by [Your Name](https://github.com/your-username)
-
-```
-
----
-
-Let me know if you want it customized with your real GitHub URL, your name, or Firebase details.
-```
