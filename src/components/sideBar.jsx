@@ -1,6 +1,6 @@
 import React from 'react';
 import { Home as HomeIcon, Heart, Plus, Music, X } from 'lucide-react';
-import './sidebar.css';
+import './sideBar.css';
 
 const SideBar = ({setActiveTab, closeSidebar, isOpen}) => {
   return (
