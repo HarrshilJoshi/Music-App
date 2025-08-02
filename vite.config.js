@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+
 export default defineConfig({
-  base: "/my-app/", // 👈 replace with your actual repo name
+  base: "/", // keep this as "/" for now — adjust later only if needed
   plugins: [react()],
   server: {
     proxy: {
@@ -13,4 +14,3 @@ export default defineConfig({
     },
   },
 });
-
