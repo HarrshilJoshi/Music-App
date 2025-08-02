@@ -1,8 +1,4 @@
-Here’s the **complete README.md** content ready to copy and paste ✅:
 
----
-
-````markdown
 # 🎵 Sonic Vibe - React + Vite Music App
 
 This is a modern music streaming web application built with **React** and **Vite**, featuring seamless audio playback, hot module replacement, and Firebase integration for user data. It serves as a minimal yet scalable boilerplate to kickstart modern web apps.
